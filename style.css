@@ -469,12 +469,32 @@ section .title::after {
   height: 65px;
   align-items: center;
 }
+/* #address {
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  margin-left: 30px;
+  font-size: 25px;
+  color: crimson;
+  font-weight: 500;
+  color: #333;
+} */
+.svg-phone {
+  font-size: 25px;
+  color: crimson;
+}
 .contact .contact-content .row .info {
   margin-left: 30px;
 }
 .contact .contact-content .row i {
   font-size: 25px;
   color: crimson;
+}
+/* adding contact icon color */
+.row img {
+  color: crimson;
+  /* background-color: crimson; */
+  font-size: 45px;
+  width: 33px;
 }
 .contact .contact-content .info .head {
   font-weight: 500;

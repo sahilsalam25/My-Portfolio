@@ -35,14 +35,14 @@ $(document).ready(function () {
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Web Developer", "Front-End Developer", "UI Designer", '&', "Coder"],
+        strings: ["Web Developer", "Front-End Developer", "UI Designer", 'Programmer ', '&', "Coder"],
         typeSpeed: 100,
         backSpeed: 50,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Web Developer", "Front-End Developer", "UI Designer", '&', "Coder"],
+        strings: ["Web Developer", "Front-End Developer", "UI Designer", 'Programmer', '&', "Coder"],
         typeSpeed: 100,
         backSpeed: 50,
         loop: true
@@ -71,3 +71,16 @@ $(document).ready(function () {
         }
     });
 });
+
+// message me after submit form all input filed empty
+// let btn = document.querySelector('#submit-button');
+// btn.addEventListener('click', function () {
+//     alert('form submitted');
+//     // let result = event.target.value;
+//     // console.log(result);
+//     // form.reset();
+// })
+// let form=document.querySelector('#form-data');
+// form.addEventListener('onSubmit',function(){
+
+// })
