@@ -260,7 +260,14 @@ section .title::after {
   color: crimson;
   background: none;
 }
-
+/* span a .about-buttons-style {
+  color: aquamarine;
+  background-color: darkblue;
+} */
+/* span #about-url a {
+  display: flex;
+  justify-content: space-evenly;
+} */
 /* services section styling */
 .services,
 .teams {
