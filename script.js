@@ -35,16 +35,37 @@ $(document).ready(function () {
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Web Developer", "Front-End Developer", "UI Designer", 'Programmer ', '&', "Coder"],
-        typeSpeed: 100,
-        backSpeed: 50,
+        // update - 17-06-2025
+        strings: [
+            "Frontend Developer",
+            "React.js Developer",
+            "JavaScript Enthusiast",
+            "Responsive Web Designer",
+            "UI/UX Developer",
+            "Clean Code Advocate"
+        ],
+
+        // old one- 
+        // strings: ["Web Developer", "Front-End Developer", "UI Designer", 'Programmer ', '&', "Coder"],
+        typeSpeed: 80,
+        backSpeed: 40,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Web Developer", "Front-End Developer", "UI Designer", 'Programmer', '&', "Coder"],
-        typeSpeed: 100,
-        backSpeed: 50,
+        // update - 17-06-2025
+        strings: [
+            "Frontend Developer",
+            "React.js Developer",
+            "JavaScript Enthusiast",
+            "Responsive Web Designer",
+            "UI/UX Developer",
+            "Clean Code Advocate"
+        ],
+        // old one
+        // strings: ["Web Developer", "Front-End Developer", "UI Designer", 'Programmer', '&', "Coder"],
+        typeSpeed: 80,
+        backSpeed: 40,
         loop: true
     });
 
